@@ -1,0 +1,25 @@
+{
+  "ourclients": [
+    {
+      "sentence1": "The cottages are clean and cozy.",
+      "name1": "Joanna Smith",
+      "city1": "Winnipeg"
+    },
+    {
+      "sentence2": "I loved cottage 2, it´s very beeautiful",
+      "name2": "Carl Ford",
+      "city2": "Ottawa"
+    },
+    {
+      "sentence3": "I super recommend Cotty cottages!",
+      "name3": "Paul Carter",
+      "city3": "Quebec"
+    },
+    {
+      "sentence4": "The cottages are wonderful and the place is amazing",
+      "name4": "Sarah Parker",
+      "city4": "Niagara Falls"
+    },
+ 
+  ]
+}

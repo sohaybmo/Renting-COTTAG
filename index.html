@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="stylenew.css" />
+  <title>Cotty - rent a cottage</title>
+  <script src="./js_scripts/reviewsscript.js"></script>
+  <script src="./js_scripts/scriptapi.js"></script>
+</head>
+<body>
+    <header>
+      <div class="logo"><img src="img/logo-color.png" alt="logo_cotty"></div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="about_us.html">About us</a></li>
+          <li><a class="active" href="cottages.html">Cottages</a></li>
+          <li><a class="active" href="contactus.html">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- IMAGE SLIDER -->
+  <div class="img_slider_container">
+    <div id="hcg-slider-1" class="hcg-slider">
+      <div class="hcg-slide-container">
+        <div class="hcg-slider-body">
+          <a class="hcg-slides animated" style="display:flex">
+            <span class="hcg-slide-number">1/5</span>
+            <span class="hcg-slide-text">image 1</span>
+          </a>
+        </div>
+      </div>
+      <div class="hcg-slide-dot-control"></div>
+    </div>
+  </div>
+
+  
+
+  <!-- SECTION - REASONS -->
+  <h1 class="title">What´s your reason for renting a cottage?</h1>
+  <div class="box-content">
+    <div class="box-reason">
+      <div class="img-reason">
+        <img src="./img/reason1.png" alt="img reason for renting a cottage">
+
+      </div>
+      <h2>FAMILY VACATION</h2>
+      <div class="graybox">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dicta explicabo 
+            consectetur itaque atque? Animi nisi in dolores culpa cum.</p>
+      </div>
+
+    </div>
+    <div class="box-reason">
+      <div class="img-reason">
+        <img src="./img/reason2.png" alt="img family in front of the cottage">
+
+      </div>
+      <h2>ROMANTIC ESCAPE</h2>
+      <div class="graybox">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dicta explicabo 
+            consectetur itaque atque? Animi nisi in dolores culpa cum.</p>
+      </div>
+
+    </div>
+    <div class="box-reason">
+      <div class="img-reason">
+        <img src="./img/reason3.png" alt="img friends enjoying the cottage">
+
+      </div>
+      <h2>GET AWAY WITH FRIENDS</h2>
+      <div class="graybox">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus dicta explicabo 
+            consectetur itaque atque? Animi nisi in dolores culpa cum.</p>
+      </div>
+  </div>
+</div>
+
+<!-- SECTION - MAPS AND WEATHER -->
+
+<h1 class="title">See our cottages on the map</h1>
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22663.318313789165!2d-78.50265521626022!3d44.762152512317044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd4e1af1012f269%3A0xaaa7ada05e2cebe7!2sCrystal%20Lake!5e0!3m2!1sen!2sca!4v1669919406527!5m2!1sen!2sca" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<fieldset class="weather_container">
+  <legend>Weather Today</legend>
+      <div id="weatherCore"></div>
+  
+</fieldset>
+</div>
+
+
+
+<h1 class="title">Activities you can do</h1>
+
+<!-- FLIP CARDS - ACTIVITIES -->
+<div class="cardsbox"> 
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Activity 1</h1>
+      <p>pass the mouse over to find out</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="img/act1.png" alt="fishing"> 
+      <div>  
+      <p>Crystal lakes has more than 50 species of fish for your to grab.</p>
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Activity 2</h1>
+      <p>pass the mouse over to find out</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="img/act2.png" alt="hiking"> 
+      <div>  
+      <p>You can go hiking in our trails. There are more than 5 excellent trails for you to go.</p>
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Activity 3</h1>
+      <p>pass the mouse over to find out</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="img/act3.png" alt="swimming"> 
+      <div>  
+      <p>Our lakes are clear and clean for you to go swimming.</p>
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Activity 4</h1>
+      <p>pass the mouse over to find out</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="img/act4.png" alt="kayaking"> 
+      <div>  
+      <p>What about going kayaking? There is one in the cottage for you to use it.</p>
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h1>Activity 5</h1>
+      <p>pass the mouse over to find out</p>
+    </div>
+    <div class="flip-card-back">
+      <img src="img/act5.png" alt="biking"> 
+      <div>  
+      <p>Biking aroung the lakes is awesome. Rent our bikes.</p>
+      </div> 
+    </div>
+  </div>
+</div>
+</div>
+
+<h1 class="title">What our clients say about us</h1>
+<section class="reviews">
+  <div class="reviewcard" id="rc1">
+    
+
+  </div>
+  <div class="reviewcard" id="rc2">
+
+  </div>
+  <div class="reviewcard" id="rc3">
+
+  </div>
+  <div class="reviewcard" id="rc4">
+
+  </div>
+</section>
+
+
+
+<!-- FAQ -->
+<h1 class="title">Frequently Asked Questions</h1>
+<div class="faq_container">     
+  <button class="accordion">Do the accomodations have Wi-fi?</button>
+    <div class="panel">
+      <div class="accordion-p" >
+      <p class="ac-paragraph" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis accusantium voluptatibus amet itaque sint, porro illo quibusdam nobis non incidunt ducimus architecto quia reiciendis culpa asperiores eum minima inventore vel maiores unde esse. Ipsum, consequatur nostrum harum veritatis, laborum dolor ipsa libero autem odit at, ducimus velit mollitia eos accusamus? Nostrum recusandae ipsa eveniet doloribus nulla amet placeat magnam temporibus. Modi perferendis voluptates architecto. Odit repellendus dolor nesciunt molestiae quibusdam rerum illum suscipit. Veniam sequi quidem iure quos laborum asperiores autem repudiandae earum fugit illo mollitia animi id, harum voluptatum placeat consequuntur doloribus? In quae vero repudiandae nesciunt quas praesentium expedita maxime atque tenetur necessitatibus repellendus ab laudantium accusamus at quos beatae sed ipsa voluptatem corporis, ad velit! Consectetur incidunt eveniet earum placeat temporibus reiciendis, repudiandae itaque sint sapiente obcaecati quo soluta quos quas minima magni a cumque doloremque neque architecto cum provident, cupiditate voluptatum debitis eligendi. Quos ad iste, et sit facilis ab odio non rerum cupiditate explicabo quisquam nesciunt saepe assumenda vero, magni laboriosam. Reiciendis nesciunt earum, natus similique explicabo veritatis illo quam. Similique quaerat ea explicabo neque.</p>
+      </div>
+    </div>
+  <button class="accordion">Is it pet friendly?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, libero fugiat. Sunt at temporibus nisi possimus maxime dicta nam consequatur odit praesentium nihil omnis molestias amet cupiditate modi adipisci consequuntur, perspiciatis molestiae repellat hic id ad, beatae ipsam eos! Laboriosam?</p>
+    </div>
+    </div>
+  <button class="accordion">Are bed linen and towels provided?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, neque dignissimos tenetur quisquam beatae ad eveniet. Dignissimos reiciendis eum error sequi quidem enim ducimus nemo quasi deserunt, omnis facilis accusamus alias asperiores quae labore dolor. Soluta officia asperiores vero, earum eveniet accusantium! Maxime, aliquid, incidunt odio esse doloribus voluptas assumenda corporis dolor quaerat doloremque harum rem veniam minima, quibusdam aliquam.</p>
+      </div>
+    </div>
+    <button class="accordion">Do we have to clean before leaving the property?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, neque dignissimos tenetur quisquam beatae ad eveniet. Dignissimos reiciendis eum error sequi quidem enim ducimus nemo quasi deserunt, omnis facilis accusamus alias asperiores quae labore dolor. Soluta officia asperiores vero, earum eveniet accusantium! Maxime, aliquid, incidunt odio esse doloribus voluptas assumenda corporis dolor quaerat doloremque harum rem veniam minima, quibusdam aliquam.</p>
+      </div>
+    </div>
+    <button class="accordion">Can I hold events at the property?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eveniet ex sapiente nemo officiis a optio assumenda exercitationem reiciendis! Nobis, error. Aperiam distinctio est repellendus eaque excepturi accusamus nulla, iste quaerat blanditiis modi molestiae fugiat quos saepe corrupti at delectus numquam porro. Eaque fuga qui eius quis dolores odio aut, recusandae ut alias numquam provident eum deleniti. Tempore odit velit possimus qui unde dolore? Minima esse nobis magnam explicabo ipsum reprehenderit obcaecati, unde error voluptate eum iste cumque reiciendis iusto delectus adipisci quisquam autem eius quibusdam accusamus? Laudantium illum sint ipsum velit optio numquam rerum eum corrupti laborum voluptatibus vero, cum, corporis tempora voluptatum, explicabo culpa libero reiciendis. Quam, molestiae delectus modi reprehenderit laudantium voluptatem fugiat rem amet eius nobis! Suscipit aspernatur ad delectus porro dolor rem possimus aperiam, culpa ut, laudantium accusantium saepe fuga voluptate labore! Vel voluptate fugit adipisci assumenda? Reiciendis fugit explicabo ullam, eveniet soluta veniam, vitae error illo, expedita est perspiciatis facilis beatae totam! Amet eum nostrum inventore, nobis rerum culpa nisi enim aspernatur praesentium sit earum fuga eligendi similique molestiae, nihil maxime alias labore dolores. Deleniti aliquid debitis nulla facilis neque eaque, fugiat eveniet ipsa quaerat inventore molestiae optio eos, quis rerum non vel suscipit!</p>
+      </div>
+    </div>
+    <button class="accordion">Are there bears in the area?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime laboriosam soluta debitis ipsum voluptate ratione doloribus ullam non voluptatem facilis? Reprehenderit consectetur eum consequatur fugit accusantium dolore inventore ipsum molestiae laboriosam, esse rerum blanditiis ipsa id. Expedita inventore, magni, corporis animi quod aliquam assumenda ipsum error mollitia odit doloremque excepturi! Laudantium molestias ipsam excepturi dolores reiciendis sint tenetur quaerat voluptas! Laborum tempora quas rem fuga et obcaecati aut numquam inventore earum non ipsum sit, assumenda unde, alias quo minima rerum dicta, temporibus aspernatur. Sed eveniet obcaecati ut veniam nam odio aliquam quaerat illo, labore non doloribus similique enim cupiditate deserunt, blanditiis hic voluptatum iure delectus possimus aspernatur inventore facilis ab eos. Error natus labore vero adipisci quaerat voluptatum voluptates eaque.</p>
+      </div>
+    </div>
+    <button class="accordion">Does the cottage have a barbecue?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti voluptate placeat, sit saepe ab doloremque autem facilis asperiores! Repellendus, vel itaque asperiores officia aliquid consequuntur necessitatibus corporis nostrum architecto? Veniam mollitia vero, reprehenderit praesentium optio magnam at soluta ipsam.</p>
+      </div>
+    </div>
+    <button class="accordion">Do we need to buy bottled water or is the tap water okay to drink?</button>
+    <div class="panel">
+      <div class="accordion-p">
+      <p class="ac-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, neque dignissimos tenetur quisquam beatae ad eveniet. Dignissimos reiciendis eum error sequi quidem enim ducimus nemo quasi deserunt, omnis facilis accusamus alias asperiores quae labore dolor. Soluta officia asperiores vero, earum eveniet accusantium! Maxime, aliquid, incidunt odio esse doloribus voluptas assumenda corporis dolor quaerat doloremque harum rem veniam minima, quibusdam aliquam.</p>
+      </div>
+    </div>
+</div>
+
+  
+ 
+
+
+
+
+
+  <footer>
+    <div class="fcolumn1">
+      <nav class="nav-footer">
+        <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about_us.html">About us</a></li>
+          <li><a href="cottages.html">Cottages</a></li>
+          <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <div>
+      </nav>
+
+    </div>
+    <div class="fcolumn1">
+      <div class="f-image">
+        <img src="./img/logowhite.png">
+        
+      </div>
+
+    </div>
+    <div class="fcolumn3">
+      <div>
+        <address>Canada - Ontario</address>
+      </div>
+      <br>
+      <div>
+        <p>+1 999 999-9999</p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+   
+
+   <script src="./js_scripts/scripts.js"></script>
+    </script>
+    <script src="./js_scripts/mobile_menu.js"></script>
+    
+</body>

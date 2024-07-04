@@ -1,0 +1,276 @@
+@font-face {
+  font-family: CottyFont;
+  src: url(/fonts/Poppins-Regular.otf);
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
+}
+
+body {
+  font-family: CottyFont;
+}
+
+h1, h2, p {
+   margin: 1.6rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  /*1.6*10=16px*/  
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.4rem ;
+}
+
+p{
+  font-weight: 400;
+  font-size:1.6rem 
+}
+
+img{
+  width:100%;
+  height: auto;
+}
+
+
+/* Header and Nav css */
+
+header {
+  width: 100%;
+  height: 100%vh;
+  background-color: #cfc2c2;
+}
+
+.menu {
+  width: 70vw;
+}
+
+.logo {
+  width:30vw;
+}
+
+nav{
+  padding:1%;
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  align-items: center;
+}
+
+
+nav ul{
+  list-style-type: none;
+  border-color: rgba(139, 87, 42, 1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 14px -7px rgba(0, 0, 0, 1);
+  text-shadow: 0px 1px 0px rgba(139, 87, 42, 1);
+  background: linear-gradient(rgba(64, 48, 5, 1), rgba(139, 87, 42, 1));
+  border-radius: 20px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left:1.1rem ;
+  text-align: center;
+  padding:1rem;
+}
+
+nav ul li a{
+ color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(230, 149, 91);
+  transition: .5% ease-in-out;
+}
+
+nav box-icon {
+  display: none;
+}
+
+.main_content {
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+
+/* CSS REASONS CONTAINER */
+
+.reasons_container {
+  background-color: crimson;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.reason {
+  height: auto;
+  width: 20vw;
+  margin-bottom: 15px;
+}
+
+.img_reason {
+  width: 100%;
+  box-shadow: 5px 5px 15px -5px #000000;
+}
+
+.reason_p_box {
+  background-color: #cfc2c2;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.reason h2 {
+  font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query Mobile */
+@media only screen and (max-width:768px) {
+  nav{
+    flex-direction: column;
+    position: relative;
+  }
+
+  nav box-icon{
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 32px;
+  }
+
+  nav ul{
+    background: white;
+    width: auto;
+    display: none; 
+  }
+
+  .showmenu {
+    display: block;
+  }
+
+  nav ul li{
+    display: block;
+    padding: 2% 0;
+  }
+
+  nav ul li a{
+    color: black;
+  }
+}
+
+.reasons_container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-align: center;
+}
+
+body {
+  font-family: CottyFont;
+}
+
+h1, h2, p {
+   margin: 1.6rem 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.6rem;
+  /*1.6*10=16px*/
+  
+}
+
+h1{
+  font-weight: 800;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.4rem ;
+}
+
+p{
+  font-weight: 400 ; 
+}
+img{
+  width:100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+

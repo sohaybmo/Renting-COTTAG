@@ -1,0 +1,1066 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #dac7b4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.logo {
+  width: 30%;
+}
+
+.logo img {
+  width: 30vw;
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  color: white;
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 5px;
+  background-color: #403005;
+}
+
+.nav-bar ul li a:hover {
+  background-color: #996514;
+  transition: 0.5s ease-in-out;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-height: 100vh;
+  background: #08071d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./img/2-cottage.png") no-repeat center center/cover;
+}
+
+
+
+
+
+
+/* CSS IMG SLIDER */
+#hcg-slider-1 .hcg-slide-container {
+  width: auto;
+  height: auto;
+}
+.hcg-slider {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.hcg-slides {
+  display: none;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: solid 1px #a0a0a0;
+}
+.hcg-slides img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+.hcg-slide-dot-control {
+  margin-top: 10px;
+  text-align: center;
+}
+.hcg-slide-dot {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.hcg-slide-dot.dot-active {
+  background-color: #717171;
+}
+.hcg-slide-number {
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 7px;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/************CSS Animation***********/
+
+.animated {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/*FOOTER CSS*/
+.container_footer {
+  background-image: url("./img/woodfooter.jpg");
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  align-content: center;
+}
+
+footer {
+  background-image: url("img/footer.png");
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fcolumn1 {
+  height: 200px;
+  width: 30%;
+}
+.fcolumn3 {
+  height: 200px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fcolumn3 p {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.nav-footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-column {
+  align-items: center;
+}
+
+.nav-footer li a {
+  color: #ffffff;
+}
+
+.nav-footer li {
+  line-height: 30px;
+}
+
+.nav-footer li a:hover {
+  color: #eaee0b;
+}
+
+.f-image {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-image img {
+  width: 80%;
+}
+
+address {
+  color: white;
+  text-align: center;
+}
+
+.fcolumn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fcolumn2 p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.box-content {
+  height: 500px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0 30px;
+}
+
+.box-reason {
+  width: 25%;
+  height: 400px;
+}
+
+.box-reason img {
+  width: 100%;
+}
+.box-reason h2 {
+  font-size: 1.4rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.img-reason {
+  -webkit-box-shadow: 5px 5px 15px -1px #000000;
+  box-shadow: 5px 5px 15px -1px #000000;
+}
+
+.graybox {
+  width: fit-content;
+  background-color: #b9b6b6;
+  padding: 10px;
+}
+
+/*MAP*/
+.map {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+iframe {
+  width: 70%;
+  height: auto;
+}
+
+.map h1 {
+  
+  text-align: center;
+}
+
+/*WEATHER*/
+.weather_container {
+  width: 20%;
+  background: linear-gradient(
+    180deg,
+    #7083ff,
+    #616ed8,
+    #515ab3,
+    #42478f,
+    #32356d,
+    #23244d,
+    #14142f
+  );
+}
+
+.weather_container p {
+  font-size: 1.3rem;
+  line-height: 80px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+legend {
+  border: medium none;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: auto;
+  color: #f1ff31;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.48);
+}
+
+/* FLIP CARDS */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.cardsbox {
+  background-image: url("./img/act-bckground.png");
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-back p {
+  padding: 5px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back img {
+  width: 70%;
+  padding-top: 20px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.flip-card-front h1 {
+  font-size: 1.6rem;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front h1,
+p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/************CLIENTS REVIEWS***********/
+
+section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgba(18, 107, 15, 0.3);
+}
+
+.reviewcard {
+  width: 300px;
+  height: 500px;
+}
+
+.reviewcard p {
+  padding-top: 200px;
+}
+
+.reviewcard h3 {
+  text-align: center;
+}
+
+.reviewcard h5 {
+  text-align: center;
+}
+
+#rc1 {
+  background-image: url("./img/review1.png");
+}
+
+#rc2 {
+  background-image: url("./img/review2.png");
+}
+
+#rc3 {
+  background-image: url("./img/review3.png");
+}
+
+#rc4 {
+  background-image: url("./img/review4.png");
+}
+
+/************CSS ACCORDION***********/
+
+.faq_container {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgb(94, 91, 91);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  text-align: left;
+  border: 1px solid white;
+  font-size: larger;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: "\25BC"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+}
+
+.accordion-p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: content;
+}
+
+
+
+/******************************************/
+/********** ABOUT US PAGE *****************/
+
+.container_aboutus {
+  width: 100%;
+  height: auto;
+  background-color: #dadada;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paragraph p {
+  text-align: justify;
+  padding: 40px;
+  font-size: 1.5rem;
+  line-height: 50px;
+  text-indent: 50px;
+}
+
+.imagem {
+  background-color: #dadada;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+
+.imgboxus {
+  width: 20%;
+}
+
+.imgboxus img{
+  width: 100%;
+}
+
+
+/***** CONTACT FORM PAGE CSS *******/
+.container form {
+  width: 670px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+}
+
+.inputbox {
+  width: 90%;
+}
+
+.container form h1 {
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.container form input {
+  width: 60%;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: rgb(255, 255, 255);
+}
+
+.container form input::placeholder {
+  color: #ddd;
+}
+
+.container form h4 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.container form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 200px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container form #button {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.container form #button:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************/
+/**********************************************************/
+/**********************************************************/
+/* MOBILE CSS */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.4rem;
+    margin: 0 20px;
+  }
+
+  header {
+    padding: 0 30px;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .nav-bar {
+    position: absolute;
+    height: 0px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #fffcf9;
+    transition: 0.8s;
+    overflow: hidden;
+  }
+  .nav-bar.active {
+    top: 150px;
+    height: 250px;
+    z-index: 1;
+    background-color: #DAC7B4
+  }
+
+  .nav-bar.active ul {
+    opacity: 1;
+  }
+
+  .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    padding: 10px 25px;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-bar ul li a {
+    display: block;
+    color: rgb(19, 18, 18);
+    font-size: 1.1rem;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    background-color: #dac7b4;
+  }
+
+  .nav-bar ul li a:hover {
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .logo img {
+    width: 70vw;
+  }
+
+  .box-content {
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-reason {
+    width: 90%;
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .cardsbox {
+    background-image: url("./img/act-bckground-mobile.png");
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-repeat: no-repeat;
+  }
+
+  .flip-card-back p {
+    font-size: 14px;
+  }
+  .flip-card-back img {
+    width: 70%;
+    padding-top: 20px;
+  }
+
+  .flip-card-front {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background-color: rgba(18, 107, 15, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Style the buttons that are used to open and close the accordion panel */
+  .accordion {
+    background-color: rgb(94, 91, 91);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    border: 1px solid white;
+    font-size: larger;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active,
+  .accordion:hover {
+    background-color: #ccc;
+    color: black;
+  }
+
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: "\25BC"; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .accordion.active:after {
+    content: "\25B2"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .accordion-p {
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: content;
+  }
+./
+  footer {
+    background-image: url("./img/footer.png");
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .fcolumn1 {
+    height: auto;
+    width: 50%;
+  }
+  .fcolumn3 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .f-image img {
+    width: 100%;
+  }
+
+  /*CONTACT US PAGE FORM*/
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: #08071d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./img/2-cottage.png") no-repeat center center/cover;
+  }
+
+  .container form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    flex-wrap: wrap;
+  }
+
+  .container form h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+  }
+
+  .container form input {
+    width: 360px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+    color: #000000;
+  }
+
+  .container form input::placeholder {
+    color: rgb(34, 33, 33);
+    font-weight: 400;
+  }
+
+  .container form h4 {
+    color: #fff;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 20px;
+  }
+
+  .container form textarea {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: rgb(2, 2, 2);
+    font-weight: 400;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 350px;
+    max-width: 600px;
+    min-height: 200px;
+    max-height: 80px;
+  }
+
+  textarea::-webkit-scrollbar {
+    width: 1em;
+  }
+
+  textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(194, 194, 194, 0.713);
+  }
+
+  .container form #button {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+
+  .container form #button:hover {
+    opacity: 0.7;
+  }
+
+  /*MAP*/
+  .map {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .map h1 {
+    text-align: center;
+  }
+
+  /*WEATHER*/
+  .weather_container {
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      #7083ff,
+      #616ed8,
+      #515ab3,
+      #42478f,
+      #32356d,
+      #23244d,
+      #14142f
+    );
+  }
+
+  .weather_container p {
+    font-size: 1.2rem;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  legend {
+    border: medium none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: auto;
+    color: #f1ff31;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.48);
+  }
+}

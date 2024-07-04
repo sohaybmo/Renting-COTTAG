@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  width: auto;
+  padding: 0;
+  background-color: gray;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 600px) {
+
+}
+
+.container_head {
+  height: 80px;
+  width: auto;
+  background-color: blueviolet;
+}
+
+/* Header and Nav Bar */
+.navbar_style ul {
+  text-decoration: none;
+  color: blueviolet;
+
+}
